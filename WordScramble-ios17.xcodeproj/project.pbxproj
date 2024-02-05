@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		18689FD92B71630A00F915CE /* WordScramble_ios17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689FD82B71630A00F915CE /* WordScramble_ios17App.swift */; };
-		18689FDB2B71630A00F915CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689FDA2B71630A00F915CE /* ContentView.swift */; };
 		18689FDD2B71630B00F915CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18689FDC2B71630B00F915CE /* Assets.xcassets */; };
 		18689FE02B71630B00F915CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18689FDF2B71630B00F915CE /* Preview Assets.xcassets */; };
+		18689FEA2B71632400F915CE /* BundleBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689FE62B71632400F915CE /* BundleBasics.swift */; };
+		18689FEB2B71632400F915CE /* StringsBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689FE72B71632400F915CE /* StringsBasics.swift */; };
+		18689FEC2B71632400F915CE /* ListBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689FE82B71632400F915CE /* ListBasics.swift */; };
+		18689FED2B71632400F915CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689FE92B71632400F915CE /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18689FD52B71630A00F915CE /* WordScramble-ios17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WordScramble-ios17.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18689FD82B71630A00F915CE /* WordScramble_ios17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble_ios17App.swift; sourceTree = "<group>"; };
-		18689FDA2B71630A00F915CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18689FDC2B71630B00F915CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18689FDF2B71630B00F915CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18689FE62B71632400F915CE /* BundleBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleBasics.swift; sourceTree = "<group>"; };
+		18689FE72B71632400F915CE /* StringsBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringsBasics.swift; sourceTree = "<group>"; };
+		18689FE82B71632400F915CE /* ListBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBasics.swift; sourceTree = "<group>"; };
+		18689FE92B71632400F915CE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				18689FD82B71630A00F915CE /* WordScramble_ios17App.swift */,
-				18689FDA2B71630A00F915CE /* ContentView.swift */,
+				18689FE62B71632400F915CE /* BundleBasics.swift */,
+				18689FE92B71632400F915CE /* ContentView.swift */,
+				18689FE82B71632400F915CE /* ListBasics.swift */,
+				18689FE72B71632400F915CE /* StringsBasics.swift */,
 				18689FDC2B71630B00F915CE /* Assets.xcassets */,
 				18689FDE2B71630B00F915CE /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18689FDB2B71630A00F915CE /* ContentView.swift in Sources */,
+				18689FEC2B71632400F915CE /* ListBasics.swift in Sources */,
+				18689FED2B71632400F915CE /* ContentView.swift in Sources */,
+				18689FEA2B71632400F915CE /* BundleBasics.swift in Sources */,
 				18689FD92B71630A00F915CE /* WordScramble_ios17App.swift in Sources */,
+				18689FEB2B71632400F915CE /* StringsBasics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
